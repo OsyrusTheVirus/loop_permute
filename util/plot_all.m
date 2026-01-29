@@ -118,5 +118,21 @@ legend2 = legend( axes2, 'show' );
 set( legend2, 'Location', 'best', 'FontSize', 14) ;
 
 % Uncomment if you want to create a pdf for the graph
-print( 'Plot_All_Orderings.png', '-dpng' );
+% Set paper units to inches (or centimeters)
+
+% Define the size [left bottom width height] on the paper
+% A standard letter/A4 landscape is ~11x8.5 inches, 
+% leaving room for margins.
+%set(gcf, 'PaperPosition', [0 0 1 1]); 
+% set(gcf, 'PaperPositionMode', auto);
+
+% print(gcf, 'Plot_All_Orderings.pdf', '-dpdf' );
+% Matlab
+% set(gcf, 'PaperUnits', 'normalized');
+% set(gcf,'PaperOrientation','landscape');
+% set(gcf, 'PaperPosition', [0 0 1 1]); 
+% print('Plot_All_Orderings.pdf', '-dpdf');
+
+% Octave
+print('Plot_All_Orderings.pdf', '-dpdf', '-landscape', '-bestfit');
 %%
