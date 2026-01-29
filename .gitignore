@@ -22,7 +22,7 @@
 .DS_Store
 
 #matlab output files
-*.m
+#*.m
 
 # vscode files
 .vscode
