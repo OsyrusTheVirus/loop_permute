@@ -8,21 +8,22 @@
 % directory to Assignments/Week1/C/.  After implementing the various versions,  
 % execute 
 % 
-% make IJP    (actually, you probably did this one already)
+% make driver will do all of this:
+%       make IJP    (actually, you probably did this one already)
 % 
-% make IPJ
+%       make IPJ
 % 
-% make JIP
+%       make JIP
 % 
-% make JPI
+%       make JPI
 % 
-% make PIJ
+%       make PIJ
 % 
-% make PJI
+%       make PJI
 % 
-% or, if you have implemented them all, you can execute
+%       or, if you have implemented them all, you can execute
 % 
-% make All_Orderings
+%       make All_Orderings
 % 
 % These compile and execute a driver routine (the source of which is in driver.c) 
 % that collects accuracy and performance data for the various implementations.  
